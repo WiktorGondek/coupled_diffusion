@@ -1,4 +1,4 @@
-#! bin/usr/env python
+#! bin/usr/env python3
 
 import argparse
 from IPython.display import HTML

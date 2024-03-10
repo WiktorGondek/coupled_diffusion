@@ -5,7 +5,6 @@ TARGET=coupled_diffusion
 PYTHON=python3
 SCRIPT=animated_plot.py
 ARGS=diffusion_data
-PYTHON_FLAGS=
 
 all: $(TARGET) run_c run_python
 
@@ -18,10 +17,8 @@ run_c:
 run_python:
 	$(PYTHON) $(SCRIPT) $(ARGS) $(PYTHON_FLAGS)
 
-save:
-ifneq (,$(filter save,$(MAKECMDGOALS)))
-	$(MAKE) run_python PYTHON_FLAGS=-s
-endif
+save: PYTHON_FLAGS=-s
+save: run_python
 
 clean:
 	rm -f $(TARGET)

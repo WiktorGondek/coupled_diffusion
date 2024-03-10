@@ -1,0 +1,5 @@
+matplotlib
+IPython
+pandas
+PyQt5
+
