@@ -1,7 +1,7 @@
 
 # Numerically solving coupled diffusion equations with finite difference methods
 
-This is work I did during my university studies. The work aims to use a time-splitting approach to solving the following set of coupled diffusion equations with periodic boundary conditons:
+This is work I did during my university studies. The work aims to use a time-splitting approach to solve the following set of coupled diffusion equations with periodic boundary conditons:
 
 
 $$ \frac{\partial u}{\partial t} - D\frac{\partial^2 u}{\partial x^2} - v = 0 $$
