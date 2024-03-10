@@ -3,19 +3,17 @@
 
 This is work I did during my university studies. The work aims to use a time-splitting approach to solving this set of coupled diffusion equations with periodic boundary conditons:
 
-\[
-\frac{\partial u}{\partial t} - D\frac{\partial^2 u}{\partial x^2} - v = 0
-\]
 
-\[
-\frac{\partial v}{\partial t} - D\frac{\partial^2 v}{\partial x^2} + u = 0
-\]
+$ \frac{\partial u}{\partial t} - D\frac{\partial^2 u}{\partial x^2} - v = 0 $
+
+$ \frac{\partial v}{\partial t} - D\frac{\partial^2 v}{\partial x^2} + u = 0 $
+
 
 Where:
-- \(u\) and \(v\) are dependent variables,
-- \(t\) is time,
-- \(x\) is the spatial coordinate,
-- \(D\) is a diffusion coefficient.
+- $u$ and $v$ are dependent variables,
+- $t$ is time,
+- $x$ is the spatial coordinate,
+- $D$ is a diffusion coefficient.
 
 ## Setup
 
