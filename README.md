@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 The `input.txt` file contains the diffusion coefficent $D$, domain length $L$, number of grid points $nx$ and the final simulation time $t_{F}$, respectively.
 
-The initial conditions, $u(x,0), v(x,0), are free to be set on lines 75,76 in `coupled_diffusion.c`.
+The initial conditions, $u(x,0)$, $v(x,0)$, are free to be set on lines 75,76 in `coupled_diffusion.c`.
 
 ## Example
 
