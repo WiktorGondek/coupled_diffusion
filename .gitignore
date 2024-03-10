@@ -1,0 +1,6 @@
+
+.venv
+*.txt
+*.html
+coupled_diffusion
+diffusion_data
