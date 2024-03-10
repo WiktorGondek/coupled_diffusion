@@ -33,7 +33,7 @@ To compile and execute `coupled_diffusion.c`:
 gcc -Wall -Werror -std=c99 -o coupled_diffusion coupled_diffusion.c -lm
 ./coupled_diffsion
 ```
-This will create a file titled `diffusion_data` which contains numerical solutions to the coupled equations and, with columns for the time step, $x$ position, $u(x,t)$, $v(x,t)$, respectively. 
+This will create a file titled `diffusion_data` which contains the solutions to the coupled equations, with columns for the time step, $x$ position, $u(x,t)$, $v(x,t)$, respectively. 
  
 To run the animation plotting script:
 ```
